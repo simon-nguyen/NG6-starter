@@ -1,0 +1,11 @@
+<div>
+
+	<tabset>
+		<tab ng-repeat="t in vm.tabs"
+				 heading="{{t.heading}}"
+				 select="vm.selectTab(t)"
+				 active="t.active"/>
+	</tabset>
+
+	<div ui-view></div>
+</div>
