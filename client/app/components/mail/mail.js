@@ -3,7 +3,7 @@ import uiRouter from 'angular-ui-router';
 import mailComponent from './mail.component';
 import mailRouteConfig from './config/route';
 
-let mailModule = angular.module('mail', [
+let mailModule = angular.module('app.components.mail', [
   uiRouter
 ])
 .config(mailRouteConfig)

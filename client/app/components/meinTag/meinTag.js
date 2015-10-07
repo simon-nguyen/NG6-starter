@@ -3,7 +3,7 @@ import uiRouter from 'angular-ui-router';
 import meinTagComponent from './meinTag.component';
 import meinTagRouteConfig from './config/route';
 
-let meinTagModule = angular.module('meinTag', [
+let meinTagModule = angular.module('app.components.meinTag', [
   uiRouter
 ])
 .config(meinTagRouteConfig)

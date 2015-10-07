@@ -3,7 +3,7 @@ import uiRouter from 'angular-ui-router';
 import kalenderComponent from './kalender.component';
 import kalenderRouteConfig from './config/route';
 
-let kalenderModule = angular.module('kalender', [
+let kalenderModule = angular.module('app.components.kalender', [
   uiRouter
 ])
 .config(kalenderRouteConfig)

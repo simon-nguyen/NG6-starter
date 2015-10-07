@@ -3,7 +3,7 @@ import uiRouter from 'angular-ui-router';
 import dateiablageComponent from './dateiablage.component';
 import dateiablageRouteConfig from './config/route';
 
-let dateiablageModule = angular.module('dateiablage', [
+let dateiablageModule = angular.module('app.components.dateiablage', [
   uiRouter
 ])
 .config(dateiablageRouteConfig)
