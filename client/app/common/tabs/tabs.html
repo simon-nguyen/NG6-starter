@@ -1,11 +1,12 @@
 <div>
 
-	<tabset>
-		<tab ng-repeat="t in vm.tabs"
-				 heading="{{t.heading}}"
-				 select="vm.selectTab(t)"
-				 active="t.active"/>
-	</tabset>
+  <tabset>
+    <tab ng-repeat="t in vm.tabs"
+         select="vm.selectTab(t)"
+         active="t.active">
+      <tab-heading>{{t.heading}} <span class="badge">42</span></tab-heading>
+    </tab>
+  </tabset>
 
-	<div ui-view></div>
+  <div ui-view></div>
 </div>

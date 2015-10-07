@@ -26,14 +26,6 @@ describe('Home', () => {
     });
   });
 
-  describe('Template', () => {
-    // template specs
-    // tip: use regex to ensure correct bindings are used e.g., {{  }}
-    it('has name in template [REMOVE]', () => {
-      expect(HomeTemplate).to.match(/{{\s?vm\.name\s?}}/g);
-    });
-  });
-
   describe('Component', () => {
       // component/directive specs
       let component = HomeComponent();
