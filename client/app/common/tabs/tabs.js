@@ -2,6 +2,7 @@
 
 import angular from 'angular';
 import uiRouter from 'angular-ui-router';
+
 import tabsComponent from './tabs.component';
 import tabsFactory from './tabs.factory';
 

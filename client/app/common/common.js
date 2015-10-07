@@ -1,4 +1,5 @@
 import angular from 'angular';
+
 import Navbar from './navbar/navbar';
 import Tabs from './tabs/tabs';
 import Hero from './hero/hero';

@@ -31,14 +31,6 @@ class TabsController {
 
 		STATE.get(this).go(tab.ulink);
 	}
-
-	setTabClass(tab) {
-		if (this.activeTab === tab) {
-			return 'active';
-		}
-
-		return '';
-	}
 }
 
 /**
